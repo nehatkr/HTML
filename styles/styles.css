@@ -1,0 +1,47 @@
+
+body {
+    background-color: beige;
+    margin: 0;
+    font-family: cursive;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 6px;
+    background-color: white;
+}
+
+.logo img{
+    height: 70px;
+    width: auto;
+    animation: rotation 1s infinite linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+
+.links{
+    display:flex;
+    gap:10px;
+    list-style-type: none;
+}
+.link{
+    background-color: rgb(164, 164, 60);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.link:hover{
+    background-color: black;
+    color:  rgb(164, 164, 60);
+    
+}
